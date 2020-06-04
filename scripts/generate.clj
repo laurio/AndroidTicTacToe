@@ -1,7 +1,6 @@
 #!/usr/bin/env bb
 (ns bb-scripts.generate
-  (:require [babashka.pods :as pods]
-            [clojure.zip]))
+  (:require [babashka.pods :as pods]))
 
 (pods/load-pod "bootleg")
 (require '[pod.retrogradeorbit.bootleg.utils :as utils])
